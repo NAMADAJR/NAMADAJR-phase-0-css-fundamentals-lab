@@ -1,0 +1,42 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+#header{
+  text-align: center;
+  a{
+    background-color: antiquewhite;
+  }
+}
+
+#paragraph{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  p{
+    text-align: center;
+    width: 800px;
+  }
+}
+  
+#featured-property{
+  display: flex;
+  image-resolution: 900px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#details{
+  background-color: red;
+  display: flex;
+  justify-content: space-around;
+  p{
+    text-align: center;
+  }
+  h3{
+    text-align: center;
+  }
+}
